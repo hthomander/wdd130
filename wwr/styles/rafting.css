@@ -62,7 +62,7 @@ p {
     width: 100%;
     height: 600px;
     background-image: url('images/hero-bbg.jpg');
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
     overflow: hidden;
 }
