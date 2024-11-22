@@ -78,6 +78,9 @@ hero h1 {
     text-align: center;
     border-radius: 5px;
 }
+.hero h1 {
+    z-index: 10;
+}
 .hero article {
     position: absolute;
     top: 50%;
