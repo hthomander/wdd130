@@ -71,6 +71,32 @@ hero h1 {
     width: 100px;
     margin-left: 10px;
 }
+.adventure-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.adventure-images img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.adventure-images img + p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    margin-top: 10px;
+}
+@media (max-width: 768px) {
+    .adventure-images {
+        gap: 15px;
+    }
+    .adventure-images img {
+        max-width: 100%;
+    }
+}
 .social-media a img {
     text-decoration: none;
     border: none;
