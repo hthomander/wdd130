@@ -66,7 +66,7 @@ p {
     background-position: center;
     overflow: hidden;
 }
-hero h1 {
+.hero h1 {
     position: absolute;
     top: 50%;
     left: 50%;
