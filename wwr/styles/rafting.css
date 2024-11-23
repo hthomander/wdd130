@@ -137,23 +137,6 @@ p {
     color: var(--primary-color);
     margin-top: 10px;
 }
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    .adventure-images {
-        gap: 20px;
-    }
-    .adventure-images img {
-        flex-basis: 100%;
-        max-width: 100%;
-    }
-}
 .sociallinks a img {
     text-decoration: none;
     border: none;
