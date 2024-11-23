@@ -119,7 +119,7 @@ p {
 }
 .adventure-images {
     display: flex;
-    flex-direction: wrap;
+    flex-direction: column;
     gap: 20px;
     justify-content: center;
     margin-top: 30px;
