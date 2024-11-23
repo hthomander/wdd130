@@ -71,7 +71,7 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px 40px;
     font-size: 3rem;
