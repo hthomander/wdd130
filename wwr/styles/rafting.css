@@ -98,11 +98,11 @@ header nav ul li a:hover {
     transform: translateX(-50%);
     color: var(--primary-color);
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
-    font-size: 1.1rem;
+    padding: 20px 30px;
+    font-size: 1.2rem;
     text-align: center;
     border-radius: 5px;
-    max-width: 40%;
+    max-width: 50%;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -249,6 +249,8 @@ footer p {
 
     .hero p {
         max-width: 80%;
+        font-size: 1rem;
+        padding: 15px;
     }
 
     .hero article {
@@ -289,8 +291,9 @@ footer p {
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 0.9rem;
         max-width: 90%;
+        padding: 10px;
     }
 
     
