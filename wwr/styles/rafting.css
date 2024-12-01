@@ -108,6 +108,7 @@ header nav ul li a:hover {
 #history {
     padding: 4rem 2rem;
     background-color: var(--primary-color);
+    color: #fff;
 }
 
 #history h2 {
