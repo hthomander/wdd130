@@ -28,11 +28,11 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--secondary-color)
-    grid-template-areas: "logo nav";
 }
 
 header .logo {
-    grid-area: logo;
+    display : flex;
+    justify-content: flex-start;
 }
 
 header .logo img {
@@ -45,7 +45,6 @@ header h1 {
 
 }
 header nav {
-    grid-area: nav; 
     display: flex;
     justify-content: flex-end; 
 }
@@ -53,6 +52,7 @@ header nav ul {
     display: flex;
     gap: 1.5rem;
     list-style: none;
+    padding-left: 0;
 }
 
 
