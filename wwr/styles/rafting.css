@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--text-font);
-    background-color: #f7f7f7;
+    background-color: var(--accent1-color);
     color: var(--primary-color);
     line-height: 1.6;
 }
@@ -32,6 +32,11 @@ header {
 
 header .logo img {
     width: 120px;
+
+}
+header h1 {
+    text-align: center;
+    margin: 0 auto;
 
 }
 
@@ -56,16 +61,20 @@ header nav ul li a:hover {
 
 
 .hero {
+    width: 100%;
+    height: 400px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding: 2rem;
-    background-image: url(images/hero-bbg.jpg);
     background-size: cover;
     background-position: center;
-    height: 500px;
-    color: #fff;
+    padding: 2rem;
+}
+
+.hero h1, .hero p, .hero figure {
+    text-align: center;
+    margin: auto;
 }
 
 .hero h1 {
@@ -105,15 +114,19 @@ header nav ul li a:hover {
     gap: 2rem;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .history-content p {
     flex: 1;
-    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: justify;
+
 }
 
 .history-content img {
-    width: 40%;
+    max-width: 50%;
+    height: auto;
     border-radius: 8px;
 }
 
