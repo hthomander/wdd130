@@ -16,7 +16,7 @@
 body {
     font-family: var(--text-font);
     background-color: var(--accent1-color);
-    color: var(--primary-color);
+    color: #000000;
     line-height: 1.6;
 }
 
@@ -80,6 +80,7 @@ header nav ul li a:hover {
 .hero h1 {
     font-family: var(--heading-font);
     font-size: 5rem;
+    color: #fff;
    
 }
 
@@ -87,6 +88,7 @@ header nav ul li a:hover {
     max-width: 60%;
     font-size: 1.8rem;
     margin-top: 1rem;
+    color: #fff;
 }
 
 .hero figure {
@@ -144,6 +146,7 @@ header nav ul li a:hover {
 
 #adventures {
     padding: 3rem 2rem;
+    background-color: #f0f0f0;
 }
 
 #adventures h2 {
