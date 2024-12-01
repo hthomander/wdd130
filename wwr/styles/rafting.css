@@ -98,24 +98,6 @@ header nav ul li a:hover {
     text-align: justify;
 }
 
-.happy-client{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-}
-.client-content figure img {
-    width:150px;
-    height: auto;
-    border-radius: 50%;
-}
-
-.client-text p {
-    font-size: 1.2rem;
-    color: #333;
-    line-height: 1.6;
-    max-width: 500px;
-}
 
 #history {
     padding: 2rem;
