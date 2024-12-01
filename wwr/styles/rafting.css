@@ -76,11 +76,6 @@ header nav ul li a:hover {
     padding: 20px;
 }
 
-.hero h1, .hero p, .hero figure {
-    text-align: center;
-    margin: auto;
-}
-
 .hero h1 {
     font-family: var(--heading-font);
     font-size: 3rem;
