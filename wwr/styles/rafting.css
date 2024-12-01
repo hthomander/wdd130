@@ -22,24 +22,33 @@ body {
 
 
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 2rem;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: var(--secondary-color);
-    
+    background-color: var(--secondary-color)
+    grid-template-areas: "logo nav";
+}
+
+header .logo {
+    grid-area: logo;
 }
 
 header .logo img {
     width: 120px;
-
+    height: auto;
 }
 header h1 {
     text-align: center;
     margin: 0 auto;
 
 }
-
+header nav {
+    grid-area: nav; 
+    display: flex;
+    justify-content: flex-end; 
+}
 header nav ul {
     display: flex;
     gap: 1.5rem;
