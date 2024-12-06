@@ -15,8 +15,8 @@
 
 body {
     font-family: var(--text-font);
-    background-color: var(--accent1-color);
-    color: #000000;
+    background-color: var(--secondary-color);
+    color: #333;
     line-height: 1.6;
 }
 
@@ -27,7 +27,7 @@ header {
     grid-gap: 2rem;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: var(--secondary-color)
+    background-color: var(--accent1-color)
 }
 
 header .logo {
@@ -64,7 +64,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 
@@ -208,4 +208,93 @@ footer p {
 
 .sociallinks a img:hover {
     transform: scale(1.1);
+}
+
+.contact-page .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--primary-color);
+}
+
+.contact-page #contact-info {
+    background-color: var(--accent1-color);
+    padding: 150px 75px;
+    
+}
+
+.contact-page .contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.contact-page .contact-info .left-column {
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.contact-page .contact-info .right-column {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-page #meet-our-team {
+    padding: 150px 75px;
+    text-align: center;
+}
+
+.contact-page .employee-profiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+}
+
+.contact-page .profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-page #contact-form {
+    padding: 40px 20px;
+    background-color: var(--accent2-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page .contact-form input,
+.contact-page .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.contact-page .contact-form button {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact-page .contact-form button:hover {
+    background-color: #005fa3;
+}
+
+.contact-page .contact-form .radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-page .contact-form label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 8px;
 }
