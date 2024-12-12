@@ -83,8 +83,7 @@ header nav ul li a:hover {
     align-items: center;
     height: 80vh;
     overflow: hidden;
-    background: url('images/hero_home.jpg') no-repeat center center/cover; 
-    color: white;)
+    
 }
 .hero-image {
     width:100%;
@@ -94,6 +93,7 @@ header nav ul li a:hover {
     top: 0;
     left: 0;
     z-index: 1;
+    opacity: 0.5;
 }
 .hero-text {
     z-index: 2;
@@ -103,7 +103,7 @@ header nav ul li a:hover {
 .hero h1 {
     font-family: var(--heading-font);
     font-size: 3rem;
-    color: #fff;
+    color: black;
     margin-bottom: 10px;
    
 }
@@ -115,7 +115,7 @@ header nav ul li a:hover {
     max-width: 60%;
     font-size: 1.8rem;
     margin-top: 1rem;
-    color: #fff;
+    color: #000;
 }
 
 .hero figure {
@@ -129,6 +129,17 @@ header nav ul li a:hover {
     box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.5);
 }
 
+.trip-categories {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+.trip-categories h2 {
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
 .newsletter {
     background-color: var(--primary-color);
     color: white;
@@ -206,7 +217,7 @@ header nav ul li a:hover {
     gap: 2rem;
 }
 .grid-item img {
-    width: 1005;
+    width: 100%;
     border-radius: 8px;
     margin-bottom: 1rem;
 }
@@ -219,7 +230,32 @@ header nav ul li a:hover {
 .grid-itm p {
     line-height: 1.5;
 }
-
+.trip-table h2 {
+    font-family: var(--heading-font);
+    color: #000;
+    font-size: 2.75rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+table th, table td {
+    padding : 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+table th {
+    background-color: var(--accent1-color);
+    color: white;
+    font-weight: bold;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
 #history {
     padding: 4rem 2rem;
     background-color: var(--secondary-color);
